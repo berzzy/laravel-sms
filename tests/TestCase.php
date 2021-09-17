@@ -2,9 +2,9 @@
 
 namespace Berzel\Sms\Tests;
 
+use Berzel\Sms\SmsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Berzel\Sms\SmsServiceProvider;
 
 class TestCase extends Orchestra
 {
