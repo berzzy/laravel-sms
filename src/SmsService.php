@@ -24,7 +24,7 @@ class SmsService
      * @param Berzel\Sms\Message
      * @return void
      */
-    public function send(Message $message) : void
+    public function send(Message $message): void
     {
         $this->body = $message->body();
         // Send the message here
@@ -36,9 +36,10 @@ class SmsService
      * @param string $to
      * @return Berzel\Sms\SmsService
      */
-    public function to(string $to) : SmsService
+    public function to(string $to): SmsService
     {
         $this->to = $to;
+
         return $this;
     }
 }

@@ -17,9 +17,9 @@ class Message
      * @param string $body
      * @return string|null
      */
-    public function body(string $body = null) : ?string
+    public function body(string $body = null): ?string
     {
-        if (!$body) {
+        if (! $body) {
             return $this->body;
         }
 
