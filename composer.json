@@ -6,7 +6,7 @@
         "laravel",
         "laravel-sms"
     ],
-    "homepage": "https://github.com/berzel/laravel-sms",
+    "homepage": "https://github.com/berzzy/laravel-sms",
     "license": "MIT",
     "authors": [
         {
@@ -52,7 +52,7 @@
                 "Berzel\\Sms\\SmsServiceProvider"
             ],
             "aliases": {
-                "Sms": "Berzel\\Sms\\SmsFacade"
+                "Sms": "Berzel\\Sms\\Sms"
             }
         }
     },
