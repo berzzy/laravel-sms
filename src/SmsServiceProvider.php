@@ -2,9 +2,9 @@
 
 namespace Berzel\Sms;
 
+use Berzel\Sms\Commands\SmsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Berzel\Sms\Commands\SmsCommand;
 
 class SmsServiceProvider extends PackageServiceProvider
 {
